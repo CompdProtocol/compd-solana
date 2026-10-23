@@ -6,8 +6,8 @@ No historical commits, refs, tags, Git objects, remotes, hooks, worktree links o
 
 Executable source, tests, IDL, lockfiles and all six retained legal files are byte-identical to the validated candidate. Documentation-only adjustments describe the clean-repository scope. Prior six Rust and 29 Node test passes remain the source checkpoint; they are not new tests of a deployed system.
 
-The owner confirmed Copyright (c) 2026 CompdProtocol and approved MIT only for original COMPD-owned source code. Third-party works, standalone documentation and artwork are excluded from the first-party grant. Dependencies retain their original licenses; no installed dependency implementations are bundled. Remote source publication still requires explicit owner approval.
+The owner confirmed Copyright (c) 2026 CompdProtocol and approved MIT only for original COMPD-owned source code. Third-party works, standalone documentation and artwork are excluded from the first-party grant. Dependencies retain their original licenses; no installed dependency implementations are bundled. The owner approved public source publication; that approval does not authorize mainnet operation.
 
 The retained 14-entry dependency disclosure has seven high and seven moderate affected entries; five direct and nine transitive production entries, none development-only. All remain open. Publishing source with this disclosure is a different owner decision from approving operational use.
 
-No remote repository is created. No commit, staging, push or deployment has occurred. See OWNER-DECISIONS.md for the remaining publication approvals.
+The source was published to [CompdProtocol/compd-solana](https://github.com/CompdProtocol/compd-solana) with initial commit [e3266736f2dbe5c442c6a0e4764d34f4c803bedc](https://github.com/CompdProtocol/compd-solana/commit/e3266736f2dbe5c442c6a0e4764d34f4c803bedc). No historical commits were imported and no mainnet deployment is claimed. The pre-publication checklist in OWNER-DECISIONS.md is awaiting the separately tracked [documentation correction](https://github.com/CompdProtocol/compd-solana/issues/1).
