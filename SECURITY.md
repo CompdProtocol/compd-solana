@@ -108,7 +108,7 @@ If you discover a potential security issue:
 
 Reports are evaluated according to severity, reproducibility, and potential impact.
 
-Please use an official, verified communication channel associated with the CompdProtocol GitHub account.
+GitHub private vulnerability reporting is currently disabled for this repository. Use an independently verified private maintainer channel associated with the CompdProtocol account. If no such channel is available, request a private reporting route without publishing vulnerability details. No private email address, response deadline or reporting service is advertised by this policy.
 
 ---
 
