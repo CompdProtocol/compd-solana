@@ -1,0 +1,42 @@
+{
+  "parser": "Existing Mermaid package with JSDOM; no repository dependency changes",
+  "diagrams": [
+    {
+      "file": "docs/AGENT.md",
+      "diagram": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "diagram": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "diagram": 2,
+      "status": "PASS"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "diagram": 3,
+      "status": "PASS"
+    },
+    {
+      "file": "docs/HOLDER-REWARDS.md",
+      "diagram": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "docs/METEORA-DBC.md",
+      "diagram": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "README.md",
+      "diagram": 1,
+      "status": "PASS"
+    }
+  ],
+  "syntax": "PASS",
+  "visualRender": "Not performed; diagrams reviewed against source"
+}

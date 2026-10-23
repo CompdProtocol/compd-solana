@@ -1,0 +1,12 @@
+node_modules/
+target/
+.anchor/
+*.sqlite*
+*.db*
+.env*
+!.env.example
+runtime/
+*.keypair.json
+*-keypair.json
+
+.tooling/

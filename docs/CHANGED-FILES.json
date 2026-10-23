@@ -1,0 +1,1780 @@
+{
+  "base": "8c7122bc0d23ef95a9aba58c786fffd025d6bb3b",
+  "branch": "codex/solana-native-source",
+  "tracked": [
+    {
+      "status": "M",
+      "path": "CONTRIBUTING.md"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "M",
+      "path": "SECURITY.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ARCHITECTURE.md"
+    },
+    {
+      "status": "D",
+      "path": "docs/PUBLIC-SNAPSHOT-NOTES.md"
+    },
+    {
+      "status": "M",
+      "path": "package.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/API-CONTRACT.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/DEPENDENCIES.md"
+    },
+    {
+      "status": "M",
+      "path": "packages/agent/README.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/artifacts/CompdCanonicalHolderStateV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/artifacts/CompdHolderCandidateModuleV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/artifacts/CompdHolderDistributorV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/artifacts/CompdHolderModuleV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/artifacts/CompdVaultKernelV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/healthcheck.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/benchmark.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/cli.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/fixtures/half-window-transfer.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/production-input.template.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/codec.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/core.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/first-window-cli.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/first-window.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/indexed-candidate.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/src/phase5.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/test/core.test.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/test/first-window.test.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/test/indexed-candidate.test.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offchain/holder-rewards-v1/test/phase5.test.mjs"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/offline-fixture-check.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/package.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/preflight.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/requirements.txt"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/HOLDER_REWARDS.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/README.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/agent_lifecycle.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/agent_scheduler.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/launch_status.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/public_status.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/test_agent_lifecycle.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/test_agent_scheduler.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/test_dashboard_api.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/test_launch_status.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/test_xstocks_agent.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/__pycache__/xstocks_agent.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/agent_lifecycle.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/agent_observation.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/agent_scheduler.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/chainlink_observer.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/config.blocked.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/holder_executor_fixtures.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/launch-identities.blocked.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/launch_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/market_session.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/policy.blocked.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/public_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/recovery_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_agent_lifecycle.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_agent_observation.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_agent_scheduler.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_buyback_keeper.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_chainlink_observer.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_dashboard_api.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_holder_executor.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_holder_rewards.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_launch_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_manual_buyback.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_manual_http.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_manual_treasury_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_market_session.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_public_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_recovery_status.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_single_recipient_planning.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_xstocks_agent.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/test_xstocks_market_data.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/us-equity-calendar-2026.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/xstocks-policy.example.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/xstocks_agent.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/tools/agent-scheduler/xstocks_market_data.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/agent/verify-package.py"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/API-CONTRACT.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/README.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/abi/CompdCanonicalHolderStateV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/abi/CompdHolderCandidateModuleV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/abi/CompdHolderDistributorV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/abi/CompdHolderModuleV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/abi/CompdVaultKernelV3.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/flap/CompdEconomicVaultFactory.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/flap/CompdNativeVaultFactoryV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/flap/CompdProductionVaultFactory.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/flap/CompdProductionVaultFactoryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/flap/CompdThinFlapReceiver.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/mocks/MockTokensAndMarket.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/CompdBuybackExecutor.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/CompdHolderRewardsDistributor.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/CompdProductionVault.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/CompdStrategyExecutor.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/ICompdHolderRewardsDistributor.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/ICompdProductionInterfaces.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdBuybackExecutorV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdEmergencyRegistryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdHolderAccountingV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdHolderLiabilityV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdHolderRewardsDistributorV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdHolderWorkflowV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdProductionVaultV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdStrategyExecutorV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdThinFlapReceiverV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdTypedModulesV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdV2Types.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdVaultKernelV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/CompdVaultKernelV2Types.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdEmergencyRegistryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdEmergencyVaultV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdHolderAccountingV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdHolderLiabilityV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdHolderRewardsDistributorV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdHolderWorkflowV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdProductionVaultFactoryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdProductionVaultV2Decomposition.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/ICompdVaultBoundComponentV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2b/C2G2BTypes.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2b/CompdVaultKernelV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/C2G2BTypes.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdBuybackModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdEmergencyModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdEmergencyScopeRegistryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdHolderModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdProtocolLensV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdRecoveryModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdSettlementModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br1/CompdVaultKernelV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/C2G2BTypes.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdBuybackModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdEmergencyModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdEmergencyScopeRegistryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdHolderModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdProtocolLensV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdRecoveryModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdSettlementModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br2/CompdVaultKernelV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/C2G2BTypes.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdBuybackModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdEmergencyModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdEmergencyScopeRegistryV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdHolderModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdProtocolLensV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdRecoveryModuleV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdSettlementModuleV2R4.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdStrategyExecutorV2R4.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br4/CompdVaultKernelV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br6r2b/C2G2BTypesR6R2B.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br6r2b/CompdBuybackPolicyModuleR6R2B.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase6c2g2br6r2b/CompdVaultKernelV2R6R2B.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar1/C2G2BTypesR1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar1/CompdBuybackPolicyModuleR1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar1/CompdStrategyExecutorV2R1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar1/CompdVaultKernelV2R1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar2/C2G2BTypesR2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar2/CompdBuybackPolicyModuleR2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar2/CompdRecoveryModuleR2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar2/CompdStrategyExecutorV2R2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7ar2/CompdVaultKernelV2R2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v2/phase7c/CompdBuybackExecutorDisabledV1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG0/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG1/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG2/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG3/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cgG4/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2c/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ce/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdKernelLogicV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdKernelLogicV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2cf1/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdAMZNxV3V3Adapter.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdBuybackExecutorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdBuybackPolicyModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdCanonicalHolderStateV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdDeferredManualBuybackExecutorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdDisabledBuybackExecutorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdDisabledBuybackPolicyModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdEmergencyModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdEmergencyScopeRegistryV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdFlapBuybackAdapterV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdHolderCandidateModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdHolderCandidateTypesV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdHolderDistributorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdHolderLiabilityV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdHolderModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdIndependentXStocksGuardV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdManualBuybackExecutorV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdNativeFeeReceiverV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdPancakeV3XStocksAdapter.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdPancakeXStocksAdapterV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdPhaseBuybackAdapterV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdRecoveryEvidenceV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdRecoveryModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdSettlementModuleV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdTerminatedCustodyV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/production/v3/phase7cr2ch/CompdVaultKernelV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/prototype/CompdVaultKernelV2NextProto.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/prototype/OptionAPrototype.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/prototype/OptionAPrototypeC2FG.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/contract/prototype/phase6c2g2a/CompdVaultKernelV2RehomeProto.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/docs/deployment-addresses.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/foundry.toml"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/LICENSE-APACHE"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/LICENSE-MIT"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/Base.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/Config.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/LibVariable.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/Script.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdAssertions.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdChains.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdCheats.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdConfig.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdConstants.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdError.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdInvariant.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdJson.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdMath.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdStorage.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdStyle.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdToml.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/StdUtils.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/Test.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/Vm.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/console.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/console2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC1155.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC165.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC20.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC4626.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC6909.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC721.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC7540.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IERC7575.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/interfaces/IMulticall3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/lib/forge-std/src/safeconsole.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/package.json"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/IPortal.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/IVaultFactory.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/IVaultPortal.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/IVaultSchemasV1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/VaultBase.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/VaultBaseV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/VaultBaseV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/src/flap/VaultFactoryBaseV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdAMZNxV3V3Adapter.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdHolderRewardsAccounting.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdHolderRewardsDistributor.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdHolderRewardsPhase4Compatibility.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdHolderSplitPrototype.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdIndependentXStocksGuard.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeRebaseQualification.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeV3Fork.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeV3Kernel.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeV3XStocks.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeXStocksAdapter.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeXStocksFork.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPancakeXStocksKernel.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdPhase6C1V2Foundation.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdProductionInvariant.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdProductionSecurityReview.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdProductionV1.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/CompdXStocksRouteQualification.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/FlapEconomicVaultIntegration.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/deployment-rehearsal/DeferredRouteFixture.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/deployment-rehearsal/OfflineFixtures.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/emergency-recovery/CompdFullRecovery.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/fixtures/CompdProductionFixtures.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdAgentLifecycleLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdBuybackV3Local.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdDeferredTreasuryLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdFlapBuybackLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdManualTreasuryLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdNativeFactoryFork.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdNativeFactoryLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/CompdPhaseBuybackLocal.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/NativeFactoryGraph.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IERC20.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapAIProvider.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapCandyBox.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapOracle.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapTaxTokenV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapTriggerService.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IFlapVaultEx.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IPortal.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/ITaxProcessor.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IVaultFactory.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IVaultPortal.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/IVaultSchemasV1.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/VaultBase.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/VaultBaseV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/VaultBaseV3.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/src/flap/VaultFactoryBaseV2.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/test/FlapBSCFixture.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/test/lib/ClonesUpgradeable.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/flap-native/reference/test/lib/VanityHelper.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/holder-epochs/CompdHolderEpochs.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/holder-zero-copy/CompdHolderBudgetQualified.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/holder-zero-copy/CompdHolderZeroCopyAcceptance.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/launch-blockers/CompdAccidentalRescue.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2a/Phase6C2G2ARehome.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br1/Phase6C2G2BR1.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br2/Phase6C2G2BR2.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br4/Phase6C2G2BR4.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br4/Phase6C2G2BR4Invariant.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br4/ReferenceStrategyAdapterR4.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br6r2b/Phase6C2G2BR6R2B.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase6c2g2br6r2b/Phase6C2G2BR6R2BInvariant.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7ar1/Phase7AR1.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7ar1/Phase7AR1Invariant.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7ar2/Phase7AR2.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7ar2/Phase7AR2Invariant.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7c/Phase7CDisabledBuyback.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2c/CompdPhase7CR2CState.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdH702Transitions.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyCounter.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyHistoryGas.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyLocalQualification.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyMaximumShape.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyRegistryDecisionGas.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyRemainingEmergency.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHReadyRemainingSecurity.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdHolderCurrentPolicySuccessor.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdNativeFeeIngressV3.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdPhase7CR2CH7PartitionRecovery.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdPhase7CR2CH7ShutdownSettlement.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdPhase7CR2CHCanonicalState.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/CompdPhase7CR2CHCurrentV3.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ch/W02Fixture.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ci/Phase7CR2CIGraph.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ci/Phase7CR2CISettlementLifecycle.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ci/Phase7CR2CIValidationMatrix.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/phase7cr2ci/foundry.toml"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/production-deploy/PrepareProduction.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/prototype/CompdEmergencyBackingMathC2G1.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/prototype/CompdVaultKernelV2NextProto.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/prototype/OptionAPrototype.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/test-foundry/prototype/OptionAPrototypeC2FG.t.sol"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/vendor/openzeppelin-contracts-upgradeable/LICENSE"
+    },
+    {
+      "status": "D",
+      "path": "packages/protocol/vendor/openzeppelin-contracts-upgradeable/access/IAccessControlUpgradeable.sol"
+    }
+  ],
+  "new": [
+    ".gitignore",
+    "Anchor.toml",
+    "Cargo.lock",
+    "Cargo.toml",
+    "crates/accounting/Cargo.toml",
+    "crates/accounting/src/lib.rs",
+    "docs/ARCHIVE.md",
+    "docs/BLOCKERS.md",
+    "docs/CHANGED-FILES.json",
+    "docs/COMPLETION-HANDOFF.md",
+    "docs/DEPENDENCIES.md",
+    "docs/DEPENDENCY-AUDIT.json",
+    "docs/DEPENDENCY-SECURITY.md",
+    "docs/NEW-FILES.txt",
+    "docs/PROTOCOL.md",
+    "docs/REMOVED-FILES.txt",
+    "docs/SOURCE-REPLACEMENT.json",
+    "docs/VALIDATION.json",
+    "docs/legal/active/meteora-damm-v2-LICENSE",
+    "docs/legal/active/meteora-dbc-sdk-LICENSE",
+    "docs/legal/packages/protocol/THIRD_PARTY_NOTICES.md",
+    "docs/legal/packages/protocol/lib/forge-std/LICENSE-APACHE",
+    "docs/legal/packages/protocol/lib/forge-std/LICENSE-MIT",
+    "docs/legal/packages/protocol/vendor/openzeppelin-contracts-upgradeable/LICENSE",
+    "package-lock.json",
+    "packages/agent/cli.mjs",
+    "packages/agent/custody.mjs",
+    "packages/agent/execution.mjs",
+    "packages/agent/journal.mjs",
+    "packages/agent/lifecycle.mjs",
+    "packages/agent/receipts.mjs",
+    "packages/agent/scheduler.mjs",
+    "packages/meteora-dbc/README.md",
+    "packages/meteora-dbc/index.mjs",
+    "packages/meteora-dbc/migration.mjs",
+    "packages/sdk/README.md",
+    "packages/sdk/accounting.mjs",
+    "packages/sdk/holders.mjs",
+    "packages/sdk/idl/compd_treasury.json",
+    "packages/sdk/transactions.mjs",
+    "packages/sdk/treasury.mjs",
+    "programs/compd-treasury/Cargo.toml",
+    "programs/compd-treasury/src/execution_tests.rs",
+    "programs/compd-treasury/src/lib.rs",
+    "scripts/check.mjs",
+    "scripts/dev-tools.ps1",
+    "tests/accounting.test.mjs",
+    "tests/agent.test.mjs",
+    "tests/completion.test.mjs",
+    "tests/dbc.test.mjs",
+    "tests/dev-program.json",
+    "tests/execution.test.mjs",
+    "tests/idl.test.mjs",
+    "tests/receipts.test.mjs",
+    "tests/treasury-sdk.test.mjs"
+  ],
+  "ignoredToolsAndPrivateKeysExcluded": true,
+  "websiteUnchanged": true,
+  "untracked": [
+    ".gitignore",
+    "Anchor.toml",
+    "Cargo.lock",
+    "Cargo.toml",
+    "crates/accounting/Cargo.toml",
+    "crates/accounting/src/lib.rs",
+    "docs/ARCHIVE.md",
+    "docs/BLOCKERS.md",
+    "docs/CHANGED-FILES.json",
+    "docs/COMPLETION-HANDOFF.md",
+    "docs/DEPENDENCIES.md",
+    "docs/DEPENDENCY-AUDIT.json",
+    "docs/DEPENDENCY-SECURITY.md",
+    "docs/NEW-FILES.txt",
+    "docs/OWNER-DECISIONS.md",
+    "docs/PROTOCOL.md",
+    "docs/PUBLICATION-REVIEW.md",
+    "docs/REMOVED-FILES.txt",
+    "docs/SOURCE-REPLACEMENT.json",
+    "docs/VALIDATION.json",
+    "docs/legal/active/meteora-damm-v2-LICENSE",
+    "docs/legal/active/meteora-dbc-sdk-LICENSE",
+    "docs/legal/packages/protocol/THIRD_PARTY_NOTICES.md",
+    "docs/legal/packages/protocol/lib/forge-std/LICENSE-APACHE",
+    "docs/legal/packages/protocol/lib/forge-std/LICENSE-MIT",
+    "docs/legal/packages/protocol/vendor/openzeppelin-contracts-upgradeable/LICENSE",
+    "package-lock.json",
+    "packages/agent/cli.mjs",
+    "packages/agent/custody.mjs",
+    "packages/agent/execution.mjs",
+    "packages/agent/journal.mjs",
+    "packages/agent/lifecycle.mjs",
+    "packages/agent/receipts.mjs",
+    "packages/agent/scheduler.mjs",
+    "packages/meteora-dbc/README.md",
+    "packages/meteora-dbc/index.mjs",
+    "packages/meteora-dbc/migration.mjs",
+    "packages/sdk/README.md",
+    "packages/sdk/accounting.mjs",
+    "packages/sdk/holders.mjs",
+    "packages/sdk/idl/compd_treasury.json",
+    "packages/sdk/transactions.mjs",
+    "packages/sdk/treasury.mjs",
+    "programs/compd-treasury/Cargo.toml",
+    "programs/compd-treasury/src/execution_tests.rs",
+    "programs/compd-treasury/src/lib.rs",
+    "scripts/check.mjs",
+    "scripts/dev-tools.ps1",
+    "tests/accounting.test.mjs",
+    "tests/agent.test.mjs",
+    "tests/completion.test.mjs",
+    "tests/dbc.test.mjs",
+    "tests/dev-program.json",
+    "tests/execution.test.mjs",
+    "tests/idl.test.mjs",
+    "tests/receipts.test.mjs",
+    "tests/treasury-sdk.test.mjs"
+  ]
+}

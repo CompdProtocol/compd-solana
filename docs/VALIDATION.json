@@ -1,0 +1,34 @@
+{
+  "nativeCargoCheck": "PASS",
+  "nativeCargoTests": {
+    "passed": 6,
+    "accounting": 4,
+    "anchorDispatchTest": 1,
+    "generatedIdCheck": 1,
+    "dispatchScenarios": 6
+  },
+  "anchorBuild": "PASS (full Anchor SBF + IDL command exit 0)",
+  "nodeTests": 29,
+  "nodeStatus": "PASS",
+  "programBinarySha256": "74b6319e8e7d8f4a1883b622f32a7e5c038bccc5a77346cfafc7c3dfeaf4d8ee",
+  "programIdentity": "OWNER_AUTHORIZED_DEVELOPMENT_ONLY",
+  "privateDevelopmentKeys": "IGNORED_NOT_FOR_PUBLICATION",
+  "dependencyFindings": {
+    "info": 0,
+    "low": 0,
+    "moderate": 7,
+    "high": 7,
+    "critical": 0,
+    "total": 14
+  },
+  "liveRpc": "NOT RUN: no verified mainnet launch inputs configured",
+  "signing": "NONE",
+  "broadcast": "NONE",
+  "deployment": "NONE",
+  "website": "UNCHANGED",
+  "originalNotices": "4 FILES MATCH HISTORICAL GIT BLOBS",
+  "activeSdkNotices": "2 FILES COPIED FROM INSTALLED OFFICIAL SDK PACKAGES",
+  "overall": "LOCAL_BUILD_AND_TEST_PASS; PUBLICATION_AND_OPERATIONAL_GATES_REMAIN",
+  "idlSha256": "5663b041147cfc5b0d2351d63a5fddbb6f0f72a25710556a989c412ba1409672",
+  "resumedAnchorBuild": "PASS (2026-10-23; approved installed-toolchain cache access)"
+}

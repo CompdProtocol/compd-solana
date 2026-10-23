@@ -1,0 +1,21 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+# Client-side PDA resolver metadata only. SDK derives every PDA explicitly.
+# Runtime seeds/bump/has_one constraints remain enforced and tested.
+resolution = false
+skip-lint = false
+
+[provider]
+cluster = "localnet"
+# Unfunded development-only identity; never used for signing in this task.
+wallet = ".tooling/dev-program-keypair.json"
+
+[scripts]
+test = "npm test"
+
+# No mainnet deployment configuration is supplied.
+
+[programs.localnet]
+compd_treasury = "69oLCEtauvko4xyBAVWg2tBHswnCJ9v6DkDfQLjQdwVT"
