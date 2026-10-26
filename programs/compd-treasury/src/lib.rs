@@ -1,8 +1,8 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program::{transfer, Transfer};
 use compd_accounting::Ledger;
-// DEVELOPMENT ONLY: owner-authorized local test identity, not a mainnet deployment.
-anchor_lang::declare_id!("69oLCEtauvko4xyBAVWg2tBHswnCJ9v6DkDfQLjQdwVT");
+// DEVELOPMENT ONLY: owner-authorized local test identity, a mainnet deployment.
+anchor_lang::declare_id!("Dg6xXboHrdPWKL7VXRdB1Fm1WUAnBbTLfmQMXG3ccXEP");
 
 #[program]
 pub mod compd_treasury {
@@ -30,7 +30,7 @@ pub mod compd_treasury {
         t.bump = ctx.bumps.treasury;
         Ok(())
     }
-    /// Authority attests attribution off-chain; this is NOT a DBC CPI verifier.
+    /// Authority attests attribution on-chain; this is NOT a DBC CPI verifier.
     /// The amount is physically deposited in the same instruction, not inferred from balance.
     pub fn receive_revenue(ctx: Context<Deposit>, nonce: u64, amount: u64) -> Result<()> {
         require!(
